@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <Title>Tsukikuki.Shop</Title>
+<link rel="stylesheet" href="style.css"> 
+
+<script src="https://kit.fontawesome.com/f53a3c531e.js"></script>
+    </head> 
+    <body>
+        <section id="header">
+            <a href="#"><img src="img\logo.jpg" class="logo" width="55px"></a>
+            <div>
+                <ul id="navbar">
+                    
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="shop.html">Shop</a></li>
+                
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="cart.html"><i class="fas fa-shopping-cart"></i></a></li>
+                
+                    
+                </ul>
+            </div>
+        </section>
+        <section id="detail" class="prodp1">
+
+            <div class="singleimg">
+                 <img src="img\Screenshot 2023-09-21 191835.png" width="100%" id="mainimg">
+            </div>
+            <div class="smallimggrp">
+                <div class="smallimgcol">
+                    <img src="img\Screenshot 2023-09-21 191835.png" width="100%" class="smallimg">
+                </div>
+
+                <div class="smallimgcol">
+                    <img src="img\Screenshot 2023-09-21 203128.png"width="100%" class="smallimg">
+                </div>
+
+                <div class="smallimgcol">
+                    <img src="img\Screenshot 2023-09-21 203156.png" width="100%" class="smallimg">
+                </div>
+
+                <div class="smallimgcol">
+                    <img src="img\Screenshot 2023-09-21 203208.png" width="100%" class="smallimg">
+                </div>
+
+            </div>
+        
+        <div class="singleproddet"> 
+           
+            <h4>Fashion T shirt</h4>
+            <h2>Rs 500</h2>
+            <select>
+                <option>Select Size</option>
+                <option>XL</option>
+                <option>XS</option>
+                <option>S</option>
+                <option>L</option>
+                <option>XXL</option>
+            </select>
+            <input type="number" value="1">
+            <button class="normal">Add to cart</button>
+            <h4>Details</h4>
+            <p>Fits just right - not too tight, not too loose.
+
+                MATERIAL
+                100% Super Combed Cotton, 250 GSM, Bio Washed, Pre-Shrunk, Double Stitched, Regular fit, Lycra ribbed neck
+            </p>
+        </div>
+        
+        </section>
+        
+
+
+   <section id="email" class="prodp1 prodm1">
+        <div class="text">
+            <h4>Sign Up!!</h4>
+            <p>Get E-mail updates about our latest shop offers.</p>
+        
+        </div>
+        <div class="form">
+            <input type="text" placeholder="Email Address">
+            <button class="normal">Sign Up</button>
+            </div>
+    </section>
+            
+    <footer class="prodp1">
+        <div class="col">
+            <img class="logo" src="img/logo.jpg" width="55px">
+            <h4>Contact</h4>
+            <p>+91 XXXXXXXXXX</p>
+            <br>
+            
+            <div class="follow">
+                <h4>Follow Us</h4>
+                <div class="icon">
+                    <i class="fab fa-facebook-f"> </i>
+                    <i class="fab fa-twitter"> </i>
+                    <i class="fab fa-instagram"> </i>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <h4>About</h4>
+            <a href="#">Delivery Information</a>
+            <a href="#">Privacy Policy</a>
+            <a href="#">Terms & Conditions</a>
+        
+        </div>
+        <div class="col">
+            <h4>My Account</h4>
+            <a href="#">Sign in</a>
+            <a href="#">View Cart</a>
+            <a href="#">Wishlist</a>
+            <a href="#">Track my Order</a>
+    
+        </div>
+       <div class="col ins">
+        <P>Payment</P>
+        <img src="img/pay.png">  
+       </div>
+       <div class="copyr">
+         <p>Tsukikuki.shop Original</p>
+       </div>
+    </footer>
+    <script>
+        var mainimg=document.getElementById("mainimg");
+        var small=document.getElementsByClassName("smallimg");
+
+        small[0].onclick=function(){
+            mainimg.src=small[0].src;
+        }
+        small[1].onclick=function(){
+            mainimg.src=small[1].src;
+        }
+        small[2].onclick=function(){
+            mainimg.src=small[2].src;
+        }
+        small[3].onclick=function(){
+            mainimg.src=small[3].src;
+        }
+        </script>
+    </body>
+</html>
